@@ -1,0 +1,173 @@
+/* Larger Screens - Responsive Design */
+
+@media (min-width: 640px) {
+
+    /* Header adjustments for larger screens */
+    header {
+        padding: 1.5rem 2rem;
+    }
+
+    header .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    /* Hide hamburger button on larger screens */
+    #nav-button {
+        display: none;
+    }
+
+    /* Horizontal navigation for larger screens */
+    nav ul {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul li {
+        border-bottom: none;
+    }
+
+    nav ul li a {
+        padding: 1rem 1.5rem;
+        position: relative;
+    }
+
+    nav ul li a::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 3px;
+        background-color: var(--white);
+        transition: width 0.3s ease;
+    }
+
+    nav ul li a:hover::after {
+        width: 80%;
+    }
+
+    nav ul li a.active::after {
+        width: 80%;
+    }
+
+    /* Main content adjustments */
+    main {
+        padding: 2rem 3rem;
+    }
+
+    main>h1 {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    /* Three-column grid layout for sections */
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    main>h1 {
+        grid-column: 1 / -1;
+    }
+
+    /* Desktop: 3-column layout */
+    @supports (display: grid) {
+        main {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    /* Section adjustments */
+    section {
+        padding: 2rem;
+        margin-bottom: 0;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+        margin: -2rem -2rem 1rem -2rem;
+    }
+
+    /* About Me section spans full in grid */
+    .about-me {
+        grid-column: 1;
+    }
+
+    /* Student Photo section */
+    .student-photo {
+        grid-column: 2;
+        text-align: center;
+    }
+
+    .student-photo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Courses section */
+    .courses {
+        grid-column: 3;
+    }
+
+    .courses .filter-buttons {
+        flex-direction: row;
+    }
+
+    /* Course cards remain vertical */
+    #course-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .course-card {
+        padding: 0.8rem 1rem;
+    }
+
+    /* Footer adjustments */
+    footer {
+        padding: 2rem;
+    }
+
+    .social-links {
+        gap: 2rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}
+
+/* Extra Large Screens */
+@media (min-width: 1024px) {
+
+    main {
+        padding: 3rem 4rem;
+    }
+
+    main>h1 {
+        font-size: 3rem;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
+
+    /* Three-column layout for course cards */
+    #course-list {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    }
+
+    .course-card {
+        padding: 2rem 1rem;
+        font-size: 1.1rem;
+    }
+}
