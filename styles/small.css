@@ -39,6 +39,10 @@ body {
     padding: 0;
 }
 
+a {
+    color: currentColor;
+}
+
 /* Header Styles */
 header {
     background-color: var(--header-bg);
@@ -133,6 +137,11 @@ nav ul li a {
     transition: background-color 0.3s ease;
 }
 
+nav ul li a:link,
+nav ul li a:visited {
+    color: var(--white);
+}
+
 nav ul li a:hover {
     background-color: var(--nav-hover);
 }
@@ -141,6 +150,11 @@ nav ul li a.active {
     background-color: var(--nav-active);
     color: var(--white);
     font-weight: 500;
+}
+
+nav ul li a.active:link,
+nav ul li a.active:visited {
+    color: var(--white);
 }
 
 /* Main Content */
