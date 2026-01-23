@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title">
+  <title id="title">Blue Nile Creative Studio</title>
+  <rect width="320" height="200" rx="24" fill="#1f3c88" />
+  <path d="M0 140 Q80 60 160 120 T320 120 V200 H0 Z" fill="#3b82f6" opacity="0.6" />
+  <path d="M0 170 Q100 90 220 150 T320 150 V200 H0 Z" fill="#0ea5e9" opacity="0.75" />
+  <text x="32" y="90" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="32" font-weight="600" fill="#ffffff">Blue Nile</text>
+  <text x="32" y="130" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="24" font-weight="400" fill="#e0f2fe">Creative Studio</text>
+</svg>

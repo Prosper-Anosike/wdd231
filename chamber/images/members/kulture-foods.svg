@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title">
+  <title id="title">Kulture Foods Market</title>
+  <rect width="320" height="200" rx="24" fill="#14532d" />
+  <circle cx="80" cy="100" r="60" fill="#f5a524" opacity="0.9" />
+  <path d="M140 140 Q220 60 300 140 V200 H140 Z" fill="#86efac" opacity="0.6" />
+  <text x="160" y="90" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="28" font-weight="600" fill="#ffffff">Kulture</text>
+  <text x="160" y="125" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="24" font-weight="500" fill="#dcfce7">Foods</text>
+  <text x="160" y="155" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="18" fill="#f5f3ef">Market Cooperative</text>
+</svg>

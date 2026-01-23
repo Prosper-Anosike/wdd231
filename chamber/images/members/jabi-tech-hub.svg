@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title">
+  <title id="title">Jabi Tech Hub</title>
+  <rect width="320" height="200" rx="24" fill="#111827" />
+  <g fill="none" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <path d="M40 80 H280" />
+    <path d="M80 120 H240" />
+    <path d="M120 60 V140" />
+    <path d="M200 60 V140" />
+  </g>
+  <text x="40" y="60" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="30" font-weight="600" fill="#f1f5f9">Jabi</text>
+  <text x="40" y="100" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="26" font-weight="500" fill="#22d3ee">Tech Hub</text>
+  <text x="40" y="140" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="18" fill="#94a3b8">Prototype · Launch · Scale</text>
+</svg>

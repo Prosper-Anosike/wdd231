@@ -1,0 +1,137 @@
+{
+    "members": [
+        {
+            "name": "Capital Innovation Lab",
+            "address": "14 Capital Plaza, Central Business District",
+            "city": "Abuja",
+            "state": "FCT",
+            "postal": "900211",
+            "phone": "+234 700 445 2200",
+            "website": "https://capitalinnovation.africa",
+            "image": "images/members/capital-innovation.svg",
+            "imageAlt": "Capital Innovation Lab abstract badge",
+            "membershipLevel": 3,
+            "description": "Research-to-market accelerator connecting product teams with venture partners across West Africa.",
+            "services": [
+                "Product sprints",
+                "Seed advisory",
+                "Prototype labs"
+            ],
+            "founded": 2015
+        },
+        {
+            "name": "Savanna Solar Cooperative",
+            "address": "28 Airport Road, Lugbe",
+            "city": "Abuja",
+            "state": "FCT",
+            "postal": "900107",
+            "phone": "+234 803 991 1180",
+            "website": "https://savannasolar.coop",
+            "image": "images/members/savanna-solar.svg",
+            "imageAlt": "Savanna Solar Cooperative sunrise emblem",
+            "membershipLevel": 2,
+            "description": "Community-owned microgrid developer delivering rooftop arrays for SMEs.",
+            "services": [
+                "Installations",
+                "Maintenance",
+                "Training"
+            ],
+            "founded": 2018
+        },
+        {
+            "name": "Blue Nile Creative Studio",
+            "address": "3 Nile Crescent, Maitama",
+            "city": "Abuja",
+            "state": "FCT",
+            "postal": "900271",
+            "phone": "+234 802 225 9481",
+            "website": "https://bluenilestudio.com",
+            "image": "images/members/blue-nile-creative.svg",
+            "imageAlt": "Blue Nile Creative Studio layered waves",
+            "membershipLevel": 1,
+            "description": "Brand identity and product storytelling for cultural entrepreneurs.",
+            "services": [
+                "Brand systems",
+                "Campaign design",
+                "Experiential"
+            ],
+            "founded": 2013
+        },
+        {
+            "name": "Jabi Tech Hub",
+            "address": "55 Technology Avenue, Jabi Lake",
+            "city": "Abuja",
+            "state": "FCT",
+            "postal": "900108",
+            "phone": "+234 706 771 1199",
+            "website": "https://jabitechhub.ng",
+            "image": "images/members/jabi-tech-hub.svg",
+            "imageAlt": "Jabi Tech Hub neon circuitry",
+            "membershipLevel": 3,
+            "description": "Workspace and mentorship community for product engineers and founders.",
+            "services": [
+                "Coworking",
+                "Mentorship",
+                "Demo days"
+            ],
+            "founded": 2016
+        },
+        {
+            "name": "Kulture Foods Market",
+            "address": "12 Heritage Close, Wuse II",
+            "city": "Abuja",
+            "state": "FCT",
+            "postal": "900288",
+            "phone": "+234 705 333 4411",
+            "website": "https://kulturefoods.market",
+            "image": "images/members/kulture-foods.svg",
+            "imageAlt": "Kulture Foods Market produce badge",
+            "membershipLevel": 2,
+            "description": "Modern retail collective featuring Northern growers and ethical supply brands.",
+            "services": [
+                "Marketplace",
+                "Catering",
+                "Workshops"
+            ],
+            "founded": 2020
+        },
+        {
+            "name": "LinkVerse Logistics",
+            "address": "48 Ring Road, Gwarinpa",
+            "city": "Abuja",
+            "state": "FCT",
+            "postal": "900108",
+            "phone": "+234 809 665 1170",
+            "website": "https://linkverse.africa",
+            "image": "images/members/linkverse-logistics.svg",
+            "imageAlt": "LinkVerse Logistics flow line icon",
+            "membershipLevel": 1,
+            "description": "Middle-mile fleet optimizing regional fulfillment and customs clearance.",
+            "services": [
+                "Fleet",
+                "Warehousing",
+                "Customs"
+            ],
+            "founded": 2011
+        },
+        {
+            "name": "Unity Health Collective",
+            "address": "9 Unity Drive, Garki II",
+            "city": "Abuja",
+            "state": "FCT",
+            "postal": "900242",
+            "phone": "+234 708 811 5520",
+            "website": "https://unityhealth.ng",
+            "image": "images/members/unity-health.svg",
+            "imageAlt": "Unity Health Collective overlapping circles",
+            "membershipLevel": 3,
+            "description": "Network of community clinics offering hybrid telehealth support.",
+            "services": [
+                "Clinics",
+                "Telehealth",
+                "Employee wellness"
+            ],
+            "founded": 2012
+        }
+    ]
+}

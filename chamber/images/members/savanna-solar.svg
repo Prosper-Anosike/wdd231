@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title">
+  <title id="title">Savanna Solar Cooperative</title>
+  <rect width="320" height="200" rx="24" fill="#f9b24c" />
+  <circle cx="70" cy="80" r="40" fill="#ffe9c9" />
+  <path d="M120 120 Q160 80 200 120 T280 120 V200 H120 Z" fill="#1f3c88" opacity="0.25" />
+  <text x="120" y="80" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="28" font-weight="600" fill="#1f2937">Savanna</text>
+  <text x="120" y="120" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="24" font-weight="600" fill="#1f2937">Solar</text>
+  <text x="120" y="150" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="18" fill="#1f2937">Co-op</text>
+</svg>

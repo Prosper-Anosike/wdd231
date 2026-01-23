@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">AG Chamber Icon</title>
+  <rect width="64" height="64" rx="16" fill="#1f3c88" />
+  <path d="M20 44 V20 H28 C34 20 38 24 38 30 C38 36 34 40 28 40 H24 V44 Z" fill="#ffffff" />
+  <path d="M34 44 V32 H40 C44 32 46 34 46 38 C46 42 44 44 40 44 Z" fill="#f5a524" />
+</svg>

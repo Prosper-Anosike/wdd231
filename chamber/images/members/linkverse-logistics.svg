@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title">
+  <title id="title">LinkVerse Logistics</title>
+  <rect width="320" height="200" rx="24" fill="#0f172a" />
+  <path d="M40 160 C80 100 140 60 200 60 C240 60 280 80 300 120" fill="none" stroke="#f5a524" stroke-width="10" stroke-linecap="round" />
+  <path d="M20 140 H120 V160 H20 Z" fill="#1d4ed8" opacity="0.6" />
+  <text x="40" y="80" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="30" font-weight="600" fill="#e2e8f0">LinkVerse</text>
+  <text x="40" y="115" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="22" fill="#c7d2fe">Logistics</text>
+</svg>
