@@ -213,7 +213,7 @@ main {
     align-items: center;
     justify-content: center;
     background: var(--clr-accent);
-    color: var(--clr-text);
+    color: #ffffff;
     font-weight: 600;
     text-decoration: none;
     border-radius: 999px;
@@ -306,7 +306,8 @@ main {
 }
 
 .weather {
-    background: linear-gradient(135deg, #0f172a, #1f3c88);
+    background-color: #0f172a;
+    background-image: linear-gradient(135deg, #0f172a, #1f3c88);
     color: #f8fafc;
 }
 
