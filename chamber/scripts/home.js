@@ -268,7 +268,7 @@ const createSpotlightCard = (member) => {
         button.href = member.website;
         button.target = '_blank';
         button.rel = 'noopener noreferrer';
-        button.className = 'btn-secondary';
+        button.className = 'button-outline';
         button.textContent = 'Visit website';
         card.appendChild(button);
     }

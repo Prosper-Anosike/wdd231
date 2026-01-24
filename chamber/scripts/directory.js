@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
             visitLink.href = member.website;
             visitLink.target = '_blank';
             visitLink.rel = 'noopener noreferrer';
-            visitLink.className = 'btn-primary';
+            visitLink.className = 'button-primary';
             visitLink.textContent = 'Visit site';
             actions.appendChild(visitLink);
         }
@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (member.phone) {
             const callLink = document.createElement('a');
             callLink.href = `tel:${formatPhoneHref(member.phone)}`;
-            callLink.className = 'btn-ghost';
+            callLink.className = 'button-ghost';
             callLink.textContent = 'Call office';
             actions.appendChild(callLink);
         }

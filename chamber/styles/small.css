@@ -249,7 +249,7 @@ main {
     color: var(--clr-muted);
 }
 
-.card {
+.panel {
     background: var(--clr-surface);
     border: 1px solid var(--clr-card-border);
     border-radius: 1.25rem;
@@ -482,7 +482,7 @@ main {
     text-decoration: none;
 }
 
-.btn-secondary {
+.button-outline {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -557,7 +557,7 @@ main {
     gap: 0.5rem;
 }
 
-.membership-form .btn-primary {
+.membership-form .button-primary {
     border: none;
     cursor: pointer;
     padding: 0.75rem 1.5rem;
@@ -884,7 +884,7 @@ main {
     margin-top: 0.75rem;
 }
 
-.member-actions .btn-primary {
+.member-actions .button-primary {
     background-color: var(--clr-button-bg);
     color: var(--clr-button-text);
     padding: 0.5rem 1.15rem;
@@ -895,7 +895,7 @@ main {
     gap: 0.35rem;
 }
 
-.member-actions .btn-ghost {
+.member-actions .button-ghost {
     border: 1px solid var(--clr-line);
     border-radius: 999px;
     padding: 0.5rem 1.1rem;
