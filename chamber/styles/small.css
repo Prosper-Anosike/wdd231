@@ -81,6 +81,11 @@ header {
     margin: 0;
 }
 
+.hero figcaption .eyebrow,
+.weather .eyebrow {
+    color: #cbd5f5;
+}
+
 .site-name {
     font-size: 1.2rem;
     font-weight: 600;
