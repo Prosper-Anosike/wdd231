@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Abuja Growth Chamber | Home">
     <meta property="og:description"
-        content="Welcome to the Abuja Growth Chamber. Explore events, get real-time weather, and meet featured members." />
+        content="Welcome to the Abuja Growth Chamber. Explore events, get real-time weather, and meet featured members.">
     <meta property="og:image" content="https://prosper-anosike.github.io/wdd231/chamber/images/social-card.svg">
     <meta property="og:url" content="https://prosper-anosike.github.io/wdd231/chamber/index.html">
     <meta property="og:site_name" content="Abuja Growth Chamber">
@@ -90,7 +90,8 @@
             </article>
         </section>
 
-        <section class="events-weather">
+        <section class="events-weather" aria-labelledby="highlights-title">
+            <h2 id="highlights-title" class="visually-hidden">Community highlights</h2>
             <article class="card events" aria-labelledby="events-title">
                 <div class="section-heading">
                     <p class="eyebrow">This week</p>
@@ -133,7 +134,9 @@
                         <p class="weather-description" id="weather-description">Fetching current conditions...</p>
                         <p class="weather-updated" id="weather-updated"></p>
                     </div>
-                    <img id="weather-icon" src="" alt="" hidden>
+                    <img id="weather-icon"
+                        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1' height='1'%3E%3C/svg%3E"
+                        alt="" hidden>
                 </div>
                 <dl class="weather-meta">
                     <div>
