@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Thank you for applying to join the Abuja Growth Chamber.">
+    <meta name="description" content="Discover Abuja's neighborhoods, culture, and business destinations.">
     <meta name="author" content="Prosper Anosike">
-    <title>Abuja Growth Chamber | Thank You</title>
+    <title>Abuja Growth Chamber | Discover</title>
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Abuja Growth Chamber | Thank You">
-    <meta property="og:description" content="Thanks for submitting your chamber membership application.">
+    <meta property="og:title" content="Abuja Growth Chamber | Discover">
+    <meta property="og:description" content="Explore the places, districts, and landmarks that power Abuja's economy.">
     <meta property="og:image" content="https://prosper-anosike.github.io/wdd231/chamber/images/social-card.svg">
-    <meta property="og:url" content="https://prosper-anosike.github.io/wdd231/chamber/thankyou.html">
+    <meta property="og:url" content="https://prosper-anosike.github.io/wdd231/chamber/discover.html">
     <meta property="og:site_name" content="Abuja Growth Chamber">
 
     <link rel="icon" href="images/chamber-favicon.svg" type="image/svg+xml">
@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="styles/larger.css">
 
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/thankyou.js" defer></script>
+    <script src="scripts/discover.js" type="module"></script>
 </head>
 
 <body>
@@ -46,7 +46,7 @@
         <nav id="primary-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li><a href="discover.html" class="active">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Events</a></li>
@@ -58,39 +58,16 @@
 
     <main>
         <section class="intro">
-            <h1>Thank you for applying!</h1>
-            <p>We have received your chamber membership application. A team member will follow up within two business
-                days.</p>
+            <h1>Discover Abuja</h1>
+            <p>Explore the people, places, and districts that make Abuja a thriving destination for new ventures.</p>
         </section>
 
-        <section class="thankyou-card" aria-labelledby="submission-title">
-            <h2 id="submission-title">Submission details</h2>
-            <dl class="submission-list">
-                <div>
-                    <dt>First name</dt>
-                    <dd id="summary-firstName">—</dd>
-                </div>
-                <div>
-                    <dt>Last name</dt>
-                    <dd id="summary-lastName">—</dd>
-                </div>
-                <div>
-                    <dt>Email</dt>
-                    <dd id="summary-email">—</dd>
-                </div>
-                <div>
-                    <dt>Mobile phone</dt>
-                    <dd id="summary-phone">—</dd>
-                </div>
-                <div>
-                    <dt>Organization</dt>
-                    <dd id="summary-organization">—</dd>
-                </div>
-                <div>
-                    <dt>Submitted</dt>
-                    <dd id="summary-timestamp">—</dd>
-                </div>
-            </dl>
+        <section class="visit-message" aria-live="polite">
+            <p id="visit-message"></p>
+        </section>
+
+        <section class="discover-grid" id="discover-grid" aria-label="Featured Abuja destinations">
+            <!-- Cards injected via JavaScript -->
         </section>
     </main>
 
