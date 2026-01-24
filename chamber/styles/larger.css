@@ -34,6 +34,14 @@
         gap: 2rem;
     }
 
+    .hero figure {
+        min-height: 420px;
+    }
+
+    .hero figcaption {
+        max-width: 55%;
+    }
+
     .intro,
     .directory-controls {
         padding: clamp(1.5rem, 3vw, 2.5rem);
@@ -51,6 +59,22 @@
 
     .view-buttons {
         width: auto;
+    }
+
+    .impact-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .events-weather {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .weather-current {
+        align-items: center;
+    }
+
+    .spotlight-grid {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     }
 
     .directory.grid-view {
@@ -76,5 +100,18 @@
 
     .member-card {
         padding: 1.5rem;
+    }
+
+    .hero figure {
+        min-height: 520px;
+    }
+
+    .hero figcaption {
+        max-width: 50%;
+    }
+
+    .events-weather {
+        grid-template-columns: 3fr 2fr;
+        align-items: stretch;
     }
 }

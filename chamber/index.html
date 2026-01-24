@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Abuja Growth Chamber home page featuring events, weather insights, and member spotlights for the capital region.">
+    <meta name="author" content="Prosper Anosike">
+    <meta name="weather-api-key" content="5cba0bbd22cb1653acd146577543485d">
+    <title>Abuja Growth Chamber | Home</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Abuja Growth Chamber | Home">
+    <meta property="og:description"
+        content="Welcome to the Abuja Growth Chamber. Explore events, get real-time weather, and meet featured members." />
+    <meta property="og:image" content="https://prosper-anosike.github.io/wdd231/chamber/images/social-card.svg">
+    <meta property="og:url" content="https://prosper-anosike.github.io/wdd231/chamber/index.html">
+    <meta property="og:site_name" content="Abuja Growth Chamber">
+
+    <link rel="icon" href="images/chamber-favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="brand">
+            <img src="images/chamber-logo.svg" alt="Abuja Growth Chamber Logo" class="logo">
+            <div>
+                <p class="eyebrow">Abuja, Nigeria</p>
+                <p class="site-name">Abuja Growth Chamber</p>
+            </div>
+        </div>
+        <button id="menu" aria-label="Open navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="primary-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <figure>
+                <img src="images/hero-innovation.svg" alt="Stylized view of Abuja's innovation skyline">
+                <figcaption>
+                    <p class="eyebrow">Business Momentum</p>
+                    <h1 id="hero-title">Where capital city founders meet talent, capital, and community.</h1>
+                    <p>We connect 400+ enterprises with policy makers, training partners, and customers through live
+                        programming across the capital territory.</p>
+                    <a class="cta" href="join.html">Become a member</a>
+                </figcaption>
+            </figure>
+        </section>
+
+        <section class="impact-grid" aria-label="Chamber metrics">
+            <article>
+                <p class="eyebrow">Programs</p>
+                <h2>48</h2>
+                <p>Hands-on workshops and capital readiness labs scheduled for 2024.</p>
+            </article>
+            <article>
+                <p class="eyebrow">Regional reach</p>
+                <h2>9</h2>
+                <p>Area councils represented through district leads and ambassadors.</p>
+            </article>
+            <article>
+                <p class="eyebrow">Member perks</p>
+                <h2>₦12M</h2>
+                <p>Value unlocked in procurement credits and discounted services last quarter.</p>
+            </article>
+        </section>
+
+        <section class="events-weather">
+            <article class="card events" aria-labelledby="events-title">
+                <div class="section-heading">
+                    <p class="eyebrow">This week</p>
+                    <h2 id="events-title">Current events</h2>
+                </div>
+                <ul class="event-list">
+                    <li>
+                        <time datetime="2026-01-25">25 Jan</time>
+                        <div>
+                            <p class="event-name">Founders breakfast briefing</p>
+                            <p class="event-meta">Smart City Hub &middot; 8:30 AM</p>
+                        </div>
+                    </li>
+                    <li>
+                        <time datetime="2026-01-27">27 Jan</time>
+                        <div>
+                            <p class="event-name">Policy sandbox office hours</p>
+                            <p class="event-meta">Virtual cohort &middot; 1:00 PM</p>
+                        </div>
+                    </li>
+                    <li>
+                        <time datetime="2026-01-30">30 Jan</time>
+                        <div>
+                            <p class="event-name">Capital showcase + pitch lab</p>
+                            <p class="event-meta">Capital Square &middot; 5:30 PM</p>
+                        </div>
+                    </li>
+                </ul>
+                <a class="text-link" href="#">View full calendar</a>
+            </article>
+
+            <article class="card weather" aria-labelledby="weather-title">
+                <div class="section-heading">
+                    <p class="eyebrow">Live conditions</p>
+                    <h2 id="weather-title">Abuja weather</h2>
+                </div>
+                <div class="weather-current">
+                    <div class="weather-temp-group">
+                        <p class="weather-temp" id="weather-temp">--°C</p>
+                        <p class="weather-description" id="weather-description">Fetching current conditions...</p>
+                        <p class="weather-updated" id="weather-updated"></p>
+                    </div>
+                    <img id="weather-icon" src="" alt="" hidden>
+                </div>
+                <dl class="weather-meta">
+                    <div>
+                        <dt>Humidity</dt>
+                        <dd id="weather-humidity">--%</dd>
+                    </div>
+                    <div>
+                        <dt>Wind</dt>
+                        <dd id="weather-wind">-- km/h</dd>
+                    </div>
+                    <div>
+                        <dt>Feels like</dt>
+                        <dd id="weather-feels">--°C</dd>
+                    </div>
+                </dl>
+                <div class="forecast" id="weather-forecast" aria-live="polite">
+                    <!-- Forecast cards injected via JavaScript -->
+                </div>
+                <p class="weather-alert" id="weather-alert" role="status" aria-live="polite"></p>
+            </article>
+        </section>
+
+        <section class="spotlights" aria-labelledby="spotlight-title">
+            <div class="section-heading">
+                <p class="eyebrow">Member spotlights</p>
+                <h2 id="spotlight-title">Gold &amp; Silver partners leading the charge</h2>
+                <p>Each refresh surfaces a new mix of standout members driving the region forward.</p>
+            </div>
+            <div class="spotlight-grid" id="spotlight-container" aria-live="polite">
+                <!-- Spotlight cards injected via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:welcome@abujachamber.org">welcome@abujachamber.org</a></p>
+            <p>Phone: +234 (0) 800 555 8899</p>
+            <p>14 Capital Plaza, Abuja, Nigeria</p>
+        </div>
+        <div class="footer-meta">
+            <p>&copy; <span id="currentyear"></span> Abuja Growth Chamber</p>
+            <p>Developed by Prosper Anosike &middot; WDD 231</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+
+</html>
