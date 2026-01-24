@@ -4,18 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Abuja Growth Chamber directory showcasing local businesses and community partners.">
+    <meta name="description" content="Thank you for applying to join the Abuja Growth Chamber.">
     <meta name="author" content="Prosper Anosike">
-    <title>Abuja Growth Chamber Directory</title>
+    <title>Abuja Growth Chamber | Thank You</title>
 
-    <!-- Open Graph Meta -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Abuja Growth Chamber | Business Directory">
-    <meta property="og:description"
-        content="Connect with innovative businesses, services, and partners across the Abuja metropolitan community.">
+    <meta property="og:title" content="Abuja Growth Chamber | Thank You">
+    <meta property="og:description" content="Thanks for submitting your chamber membership application.">
     <meta property="og:image" content="https://prosper-anosike.github.io/wdd231/chamber/images/social-card.svg">
-    <meta property="og:url" content="https://prosper-anosike.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://prosper-anosike.github.io/wdd231/chamber/thankyou.html">
     <meta property="og:site_name" content="Abuja Growth Chamber">
 
     <link rel="icon" href="images/chamber-favicon.svg" type="image/svg+xml">
@@ -29,7 +26,7 @@
     <link rel="stylesheet" href="styles/larger.css">
 
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
 </head>
 
 <body>
@@ -49,7 +46,7 @@
         <nav id="primary-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Events</a></li>
                 <li><a href="join.html">Join</a></li>
@@ -60,22 +57,39 @@
 
     <main>
         <section class="intro">
-            <h1>Chamber Member Directory</h1>
-            <p>Discover the businesses powering Abuja's innovation economy. Filter through trusted members, compare
-                services, and connect with partners ready to collaborate.</p>
+            <h1>Thank you for applying!</h1>
+            <p>We have received your chamber membership application. A team member will follow up within two business
+                days.</p>
         </section>
 
-        <section class="directory-controls" aria-label="View controls">
-            <div class="view-buttons" role="group" aria-label="Toggle list or grid view">
-                <button type="button" class="view-toggle active" data-view="grid" aria-pressed="true">Grid View</button>
-                <button type="button" class="view-toggle" data-view="list" aria-pressed="false">List View</button>
-            </div>
-            <p class="membership-key"><span class="badge gold">Gold</span><span class="badge silver">Silver</span><span
-                    class="badge standard">Member</span></p>
-        </section>
-
-        <section id="member-container" class="directory grid-view" aria-live="polite">
-            <!-- Member cards injected via JavaScript -->
+        <section class="thankyou-card" aria-labelledby="submission-title">
+            <h2 id="submission-title">Submission details</h2>
+            <dl class="submission-list">
+                <div>
+                    <dt>First name</dt>
+                    <dd id="summary-firstName">—</dd>
+                </div>
+                <div>
+                    <dt>Last name</dt>
+                    <dd id="summary-lastName">—</dd>
+                </div>
+                <div>
+                    <dt>Email</dt>
+                    <dd id="summary-email">—</dd>
+                </div>
+                <div>
+                    <dt>Mobile phone</dt>
+                    <dd id="summary-phone">—</dd>
+                </div>
+                <div>
+                    <dt>Organization</dt>
+                    <dd id="summary-organization">—</dd>
+                </div>
+                <div>
+                    <dt>Submitted</dt>
+                    <dd id="summary-timestamp">—</dd>
+                </div>
+            </dl>
         </section>
     </main>
 

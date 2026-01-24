@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Apply to join the Abuja Growth Chamber and unlock membership resources for your organization.">
+    <meta name="author" content="Prosper Anosike">
+    <title>Abuja Growth Chamber | Join</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Abuja Growth Chamber | Join">
+    <meta property="og:description" content="Apply for Abuja Growth Chamber membership and review our tiered benefits.">
+    <meta property="og:image" content="https://prosper-anosike.github.io/wdd231/chamber/images/social-card.svg">
+    <meta property="og:url" content="https://prosper-anosike.github.io/wdd231/chamber/join.html">
+    <meta property="og:site_name" content="Abuja Growth Chamber">
+
+    <link rel="icon" href="images/chamber-favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="brand">
+            <img src="images/chamber-logo.svg" alt="Abuja Growth Chamber Logo" class="logo">
+            <div>
+                <p class="eyebrow">Abuja, Nigeria</p>
+                <p class="site-name">Abuja Growth Chamber</p>
+            </div>
+        </div>
+        <button id="menu" aria-label="Open navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="primary-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Membership application</h1>
+            <p>Tell us about your organization and select the membership level that best matches your growth goals.</p>
+        </section>
+
+        <section class="join-layout" aria-labelledby="join-form-title">
+            <div class="join-form">
+                <h2 id="join-form-title">Apply to join</h2>
+                <form method="get" action="thankyou.html" class="membership-form">
+                    <label>
+                        First name
+                        <input type="text" name="firstName" title="Enter your first name" autocomplete="given-name"
+                            required>
+                    </label>
+                    <label>
+                        Last name
+                        <input type="text" name="lastName" title="Enter your last name" autocomplete="family-name"
+                            required>
+                    </label>
+                    <label>
+                        Organization title
+                        <input type="text" name="orgTitle" title="Enter your organizational title"
+                            autocomplete="organization-title" pattern="[A-Za-z\-\s]{7,}"
+                            placeholder="e.g., Business Development Lead">
+                    </label>
+                    <label>
+                        Email address
+                        <input type="email" name="email" title="Enter a valid email address" autocomplete="email"
+                            placeholder="name@company.com" required>
+                    </label>
+                    <label>
+                        Mobile phone
+                        <input type="tel" name="phone" title="Enter your mobile phone number" autocomplete="tel"
+                            required>
+                    </label>
+                    <label>
+                        Business / organization name
+                        <input type="text" name="organization" title="Enter your organization name"
+                            autocomplete="organization" required>
+                    </label>
+                    <fieldset class="membership-options">
+                        <legend>Membership level</legend>
+                        <label>
+                            <input type="radio" name="membership" value="np" required>
+                            NP Membership (Non-profit)
+                        </label>
+                        <label>
+                            <input type="radio" name="membership" value="bronze" required>
+                            Bronze Membership
+                        </label>
+                        <label>
+                            <input type="radio" name="membership" value="silver" required>
+                            Silver Membership
+                        </label>
+                        <label>
+                            <input type="radio" name="membership" value="gold" required>
+                            Gold Membership
+                        </label>
+                    </fieldset>
+                    <label>
+                        Organization description
+                        <textarea name="description" title="Describe your organization" rows="5"></textarea>
+                    </label>
+                    <input type="hidden" name="timestamp" id="timestamp">
+                    <input type="submit" value="Submit application" class="btn-primary">
+                </form>
+            </div>
+
+            <aside class="membership-cards" aria-labelledby="membership-cards-title">
+                <h2 id="membership-cards-title">Membership levels</h2>
+                <article class="membership-card">
+                    <h3>NP Membership</h3>
+                    <p>No-fee membership for registered non-profit organizations focused on community impact.</p>
+                    <button type="button" class="modal-trigger" data-modal="modal-np">View benefits</button>
+                </article>
+                <article class="membership-card">
+                    <h3>Bronze Membership</h3>
+                    <p>Essential support for early-stage organizations seeking foundational chamber access.</p>
+                    <button type="button" class="modal-trigger" data-modal="modal-bronze">View benefits</button>
+                </article>
+                <article class="membership-card">
+                    <h3>Silver Membership</h3>
+                    <p>Expanded training, event discounts, and priority visibility across chamber platforms.</p>
+                    <button type="button" class="modal-trigger" data-modal="modal-silver">View benefits</button>
+                </article>
+                <article class="membership-card">
+                    <h3>Gold Membership</h3>
+                    <p>Premium exposure, executive briefings, and spotlight advertising across the chamber.</p>
+                    <button type="button" class="modal-trigger" data-modal="modal-gold">View benefits</button>
+                </article>
+            </aside>
+        </section>
+
+        <dialog id="modal-np" class="membership-modal">
+            <div class="modal-content">
+                <h2>NP Membership benefits</h2>
+                <ul>
+                    <li>Zero membership fees for qualifying non-profits</li>
+                    <li>Access to quarterly impact roundtables</li>
+                    <li>Community partner spotlight in chamber newsletters</li>
+                </ul>
+                <button type="button" class="modal-close">Close</button>
+            </div>
+        </dialog>
+
+        <dialog id="modal-bronze" class="membership-modal">
+            <div class="modal-content">
+                <h2>Bronze Membership benefits</h2>
+                <ul>
+                    <li>Member directory listing and onboarding support</li>
+                    <li>Monthly networking events with chamber partners</li>
+                    <li>Discounted training workshops</li>
+                </ul>
+                <button type="button" class="modal-close">Close</button>
+            </div>
+        </dialog>
+
+        <dialog id="modal-silver" class="membership-modal">
+            <div class="modal-content">
+                <h2>Silver Membership benefits</h2>
+                <ul>
+                    <li>Priority booth placement at chamber expos</li>
+                    <li>Featured promotion in monthly chamber briefs</li>
+                    <li>Access to leadership mentorship sessions</li>
+                </ul>
+                <button type="button" class="modal-close">Close</button>
+            </div>
+        </dialog>
+
+        <dialog id="modal-gold" class="membership-modal">
+            <div class="modal-content">
+                <h2>Gold Membership benefits</h2>
+                <ul>
+                    <li>Homepage spotlight placement and media mentions</li>
+                    <li>Executive briefing invitations and policy updates</li>
+                    <li>Custom sponsorship packages for flagship events</li>
+                </ul>
+                <button type="button" class="modal-close">Close</button>
+            </div>
+        </dialog>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:welcome@abujachamber.org">welcome@abujachamber.org</a></p>
+            <p>Phone: +234 (0) 800 555 8899</p>
+            <p>14 Capital Plaza, Abuja, Nigeria</p>
+        </div>
+        <div class="footer-meta">
+            <p>&copy; <span id="currentyear"></span> Abuja Growth Chamber</p>
+            <p>Developed by Prosper Anosike &middot; WDD 231</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+
+</html>

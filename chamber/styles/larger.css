@@ -77,6 +77,11 @@
         grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     }
 
+    .join-layout {
+        grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+        align-items: start;
+    }
+
     .directory.grid-view {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
