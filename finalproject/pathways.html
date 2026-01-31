@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore 15 tech career pathways with skills, tools, and salary ranges.">
+    <meta name="author" content="Prosper Anosike">
+    <title>Tech Pathways Hub | Pathways</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tech Pathways Hub | Pathways">
+    <meta property="og:description" content="Discover tech roles with skills, tools, and time-to-entry insights.">
+    <meta property="og:image"
+        content="https://prosper-anosike.github.io/wdd231/finalproject/images/hero-illustration.svg">
+    <meta property="og:url" content="https://prosper-anosike.github.io/wdd231/finalproject/pathways.html">
+    <meta property="og:site_name" content="Tech Pathways Hub">
+
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/pathways.js" type="module"></script>
+</head>
+
+<body>
+    <header>
+        <div class="brand">
+            <img src="images/favicon.svg" alt="Tech Pathways Hub logo" class="logo">
+            <div>
+                <p class="eyebrow">Career pathways</p>
+                <p class="site-name">Tech Pathways Hub</p>
+            </div>
+        </div>
+        <button id="menu" aria-label="Open navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="primary-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pathways.html" class="active">Pathways</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-card">
+            <h1>Explore 15 tech roles</h1>
+            <p>Filter by track to compare roles, salaries, tools, and expected time to entry.</p>
+            <div class="filter-bar" role="group" aria-label="Filter by track">
+                <button type="button" data-track="all" class="active" aria-pressed="true">All</button>
+                <button type="button" data-track="Development" aria-pressed="false">Development</button>
+                <button type="button" data-track="Data" aria-pressed="false">Data</button>
+                <button type="button" data-track="Design" aria-pressed="false">Design</button>
+                <button type="button" data-track="IT" aria-pressed="false">IT</button>
+                <button type="button" data-track="Security" aria-pressed="false">Security</button>
+                <button type="button" data-track="AI" aria-pressed="false">AI</button>
+                <button type="button" data-track="Product" aria-pressed="false">Product</button>
+                <button type="button" data-track="Quality" aria-pressed="false">Quality</button>
+            </div>
+        </section>
+
+        <section class="roles-grid" id="roles-grid" aria-live="polite">
+            <p id="roles-status" class="status"></p>
+        </section>
+    </main>
+
+    <dialog id="role-modal" class="modal" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <h2 id="modal-title" data-modal-title>Role detail</h2>
+            <p class="role-meta"><span data-modal-track></span> · <span data-modal-level></span></p>
+            <p data-modal-summary></p>
+            <ul>
+                <li><strong>Core skills:</strong> <span data-modal-skills></span></li>
+                <li><strong>Tools:</strong> <span data-modal-tools></span></li>
+                <li><strong>Time to entry:</strong> <span data-modal-time></span></li>
+                <li><strong>Salary range:</strong> <span data-modal-salary></span></li>
+            </ul>
+            <button id="close-modal" type="button" class="button-primary">Close</button>
+        </div>
+    </dialog>
+
+    <footer>
+        <div class="footer-links">
+            <a href="attributions.html">Attributions</a>
+            <a href="https://example.com" target="_blank" rel="noopener">Project video</a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> Tech Pathways Hub</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

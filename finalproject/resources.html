@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resources, learning plans, and a mentor match form for Tech Pathways Hub.">
+    <meta name="author" content="Prosper Anosike">
+    <title>Tech Pathways Hub | Resources</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tech Pathways Hub | Resources">
+    <meta property="og:description" content="Download learning resources and request a mentor match.">
+    <meta property="og:image"
+        content="https://prosper-anosike.github.io/wdd231/finalproject/images/hero-illustration.svg">
+    <meta property="og:url" content="https://prosper-anosike.github.io/wdd231/finalproject/resources.html">
+    <meta property="og:site_name" content="Tech Pathways Hub">
+
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/resources.js" type="module"></script>
+</head>
+
+<body>
+    <header>
+        <div class="brand">
+            <img src="images/favicon.svg" alt="Tech Pathways Hub logo" class="logo">
+            <div>
+                <p class="eyebrow">Resources</p>
+                <p class="site-name">Tech Pathways Hub</p>
+            </div>
+        </div>
+        <button id="menu" aria-label="Open navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="primary-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pathways.html">Pathways</a></li>
+                <li><a href="resources.html" class="active">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-card">
+            <h1>Learning resources</h1>
+            <p>Use these quick-start resources to move from curiosity to a learning plan you can finish.</p>
+            <div class="pathway-grid">
+                <article>
+                    <h3>Certification roadmaps</h3>
+                    <p>Download timelines for entry-level certifications in data, cloud, and support.</p>
+                </article>
+                <article>
+                    <h3>Portfolio checklist</h3>
+                    <p>Track the projects and documentation you need for a strong portfolio.</p>
+                </article>
+                <article>
+                    <h3>Interview prep</h3>
+                    <p>Practice behavioral and technical questions with guided prompts.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="form-card" aria-labelledby="mentor-title">
+            <h2 id="mentor-title">Request a mentor match</h2>
+            <form class="form-grid" method="get" action="thankyou.html">
+                <label>
+                    Full name
+                    <input type="text" name="name" title="Enter your full name" autocomplete="name" required>
+                </label>
+                <label>
+                    Email address
+                    <input type="email" name="email" title="Enter your email" autocomplete="email"
+                        placeholder="name@example.com" required>
+                </label>
+                <label>
+                    Primary interest
+                    <select name="interest" id="interest" title="Select your primary interest" required>
+                        <option value="">Select a track</option>
+                        <option value="Development">Development</option>
+                        <option value="Data">Data</option>
+                        <option value="Design">Design</option>
+                        <option value="IT">IT</option>
+                        <option value="Security">Security</option>
+                        <option value="AI">AI</option>
+                        <option value="Product">Product</option>
+                        <option value="Quality">Quality</option>
+                    </select>
+                </label>
+                <label>
+                    Learning goal
+                    <input type="text" name="goal" title="Describe your learning goal" required>
+                </label>
+                <label>
+                    Notes or availability
+                    <textarea name="notes" title="Share any scheduling details" rows="4"></textarea>
+                </label>
+                <input type="hidden" name="timestamp" id="timestamp" value="">
+                <button type="submit" class="button-primary">Send request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="attributions.html">Attributions</a>
+            <a href="https://example.com" target="_blank" rel="noopener">Project video</a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> Tech Pathways Hub</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

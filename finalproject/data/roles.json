@@ -1,0 +1,289 @@
+{
+    "roles": [
+        {
+            "id": "web-dev",
+            "title": "Web Developer",
+            "track": "Development",
+            "level": "Entry",
+            "timeToEntry": "3-6 months",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "tools": [
+                "VS Code",
+                "Git",
+                "Chrome DevTools"
+            ],
+            "salaryRange": "$20k-$45k",
+            "summary": "Builds responsive websites and web apps for businesses and startups."
+        },
+        {
+            "id": "frontend",
+            "title": "Frontend Engineer",
+            "track": "Development",
+            "level": "Mid",
+            "timeToEntry": "6-12 months",
+            "skills": [
+                "React",
+                "Accessibility",
+                "APIs"
+            ],
+            "tools": [
+                "Figma",
+                "Vite",
+                "Lighthouse"
+            ],
+            "salaryRange": "$40k-$85k",
+            "summary": "Specializes in user interfaces, performance, and web accessibility."
+        },
+        {
+            "id": "backend",
+            "title": "Backend Developer",
+            "track": "Development",
+            "level": "Entry",
+            "timeToEntry": "6-12 months",
+            "skills": [
+                "Node.js",
+                "Databases",
+                "APIs"
+            ],
+            "tools": [
+                "Postman",
+                "Docker",
+                "Git"
+            ],
+            "salaryRange": "$35k-$75k",
+            "summary": "Builds the server-side logic and databases powering applications."
+        },
+        {
+            "id": "fullstack",
+            "title": "Full Stack Developer",
+            "track": "Development",
+            "level": "Mid",
+            "timeToEntry": "9-15 months",
+            "skills": [
+                "Frontend",
+                "Backend",
+                "Cloud"
+            ],
+            "tools": [
+                "GitHub",
+                "CI/CD",
+                "Cloud Hosting"
+            ],
+            "salaryRange": "$45k-$95k",
+            "summary": "Handles both client and server development across a product."
+        },
+        {
+            "id": "data-analyst",
+            "title": "Data Analyst",
+            "track": "Data",
+            "level": "Entry",
+            "timeToEntry": "4-8 months",
+            "skills": [
+                "Excel",
+                "SQL",
+                "Data Visualization"
+            ],
+            "tools": [
+                "Power BI",
+                "Tableau",
+                "Google Sheets"
+            ],
+            "salaryRange": "$30k-$65k",
+            "summary": "Turns data into insights for business decisions and reporting."
+        },
+        {
+            "id": "data-scientist",
+            "title": "Data Scientist",
+            "track": "Data",
+            "level": "Mid",
+            "timeToEntry": "12-18 months",
+            "skills": [
+                "Python",
+                "Statistics",
+                "Machine Learning"
+            ],
+            "tools": [
+                "Jupyter",
+                "Pandas",
+                "Scikit-learn"
+            ],
+            "salaryRange": "$55k-$110k",
+            "summary": "Builds predictive models and experiments to solve complex problems."
+        },
+        {
+            "id": "data-engineer",
+            "title": "Data Engineer",
+            "track": "Data",
+            "level": "Mid",
+            "timeToEntry": "10-16 months",
+            "skills": [
+                "ETL",
+                "Cloud Storage",
+                "SQL"
+            ],
+            "tools": [
+                "Airflow",
+                "BigQuery",
+                "Spark"
+            ],
+            "salaryRange": "$60k-$120k",
+            "summary": "Designs pipelines that move and clean data for analytics teams."
+        },
+        {
+            "id": "qa",
+            "title": "QA Tester",
+            "track": "Quality",
+            "level": "Entry",
+            "timeToEntry": "3-6 months",
+            "skills": [
+                "Test Planning",
+                "Bug Reports",
+                "Automation Basics"
+            ],
+            "tools": [
+                "Jira",
+                "Selenium",
+                "Playwright"
+            ],
+            "salaryRange": "$25k-$55k",
+            "summary": "Ensures software quality by testing features before release."
+        },
+        {
+            "id": "ux",
+            "title": "UX Designer",
+            "track": "Design",
+            "level": "Entry",
+            "timeToEntry": "4-9 months",
+            "skills": [
+                "User Research",
+                "Wireframing",
+                "Usability"
+            ],
+            "tools": [
+                "Figma",
+                "Miro",
+                "Notion"
+            ],
+            "salaryRange": "$35k-$70k",
+            "summary": "Designs intuitive experiences based on user feedback and testing."
+        },
+        {
+            "id": "ui",
+            "title": "UI Designer",
+            "track": "Design",
+            "level": "Entry",
+            "timeToEntry": "4-8 months",
+            "skills": [
+                "Visual Design",
+                "Typography",
+                "Color"
+            ],
+            "tools": [
+                "Figma",
+                "Adobe XD",
+                "Illustrator"
+            ],
+            "salaryRange": "$30k-$65k",
+            "summary": "Crafts visual systems and interface components for products."
+        },
+        {
+            "id": "product",
+            "title": "Product Manager",
+            "track": "Product",
+            "level": "Mid",
+            "timeToEntry": "8-14 months",
+            "skills": [
+                "Roadmapping",
+                "Research",
+                "Stakeholder Management"
+            ],
+            "tools": [
+                "Notion",
+                "Jira",
+                "Figma"
+            ],
+            "salaryRange": "$50k-$100k",
+            "summary": "Aligns teams on product goals, priorities, and releases."
+        },
+        {
+            "id": "it-support",
+            "title": "IT Support Specialist",
+            "track": "IT",
+            "level": "Entry",
+            "timeToEntry": "3-6 months",
+            "skills": [
+                "Troubleshooting",
+                "Networking",
+                "Customer Support"
+            ],
+            "tools": [
+                "Windows",
+                "Helpdesk Tools",
+                "Ticketing"
+            ],
+            "salaryRange": "$25k-$50k",
+            "summary": "Assists teams with hardware, software, and network issues."
+        },
+        {
+            "id": "cloud",
+            "title": "Cloud Practitioner",
+            "track": "IT",
+            "level": "Entry",
+            "timeToEntry": "4-8 months",
+            "skills": [
+                "Cloud Basics",
+                "Security",
+                "Networking"
+            ],
+            "tools": [
+                "AWS",
+                "Azure",
+                "Google Cloud"
+            ],
+            "salaryRange": "$35k-$70k",
+            "summary": "Supports cloud deployments and manages foundational services."
+        },
+        {
+            "id": "cyber",
+            "title": "Cybersecurity Analyst",
+            "track": "Security",
+            "level": "Entry",
+            "timeToEntry": "6-10 months",
+            "skills": [
+                "Risk Analysis",
+                "Incident Response",
+                "Networking"
+            ],
+            "tools": [
+                "SIEM",
+                "Wireshark",
+                "Kali Linux"
+            ],
+            "salaryRange": "$40k-$85k",
+            "summary": "Monitors security alerts and protects systems from threats."
+        },
+        {
+            "id": "ai",
+            "title": "AI Prompt Engineer",
+            "track": "AI",
+            "level": "Entry",
+            "timeToEntry": "3-6 months",
+            "skills": [
+                "Prompt Design",
+                "Evaluation",
+                "Writing"
+            ],
+            "tools": [
+                "OpenAI",
+                "Claude",
+                "Notion"
+            ],
+            "salaryRange": "$35k-$70k",
+            "summary": "Builds effective prompts and workflows for generative AI tools."
+        }
+    ]
+}
