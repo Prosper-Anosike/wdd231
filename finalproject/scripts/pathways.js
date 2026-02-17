@@ -10,6 +10,7 @@ const state = {
 
 const setFilter = (value) => {
     state.filter = value;
+    // localStorage stores the selected track between visits.
     localStorage.setItem(STORAGE_KEY, value);
 };
 
@@ -32,6 +33,9 @@ const renderRoles = () => {
         .map(
             (role) => `
             <article class="role-card">
+                <figure class="role-figure">
+                    <img src="${role.image}" alt="${role.imageAlt}" loading="lazy" decoding="async">
+                </figure>
                 <h3>${role.title}</h3>
                 <p class="role-meta"><span>${role.track}</span> · <span>${role.level}</span></p>
                 <p class="role-summary">${role.summary}</p>
@@ -64,6 +68,11 @@ const populateModal = (role) => {
     modal.querySelector('[data-modal-track]').textContent = role.track;
     modal.querySelector('[data-modal-level]').textContent = role.level;
     modal.querySelector('[data-modal-summary]').textContent = role.summary;
+    const modalImage = modal.querySelector('[data-modal-image]');
+    if (modalImage) {
+        modalImage.src = role.image;
+        modalImage.alt = role.imageAlt;
+    }
     modal.querySelector('[data-modal-skills]').textContent = role.skills.join(', ');
     modal.querySelector('[data-modal-tools]').textContent = role.tools.join(', ');
     modal.querySelector('[data-modal-time]').textContent = role.timeToEntry;

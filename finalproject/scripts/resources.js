@@ -15,6 +15,7 @@ const bindPreference = () => {
     const select = document.querySelector('#interest');
     if (!select) return;
     select.addEventListener('change', () => {
+        // localStorage keeps the selected interest for returning visitors.
         localStorage.setItem(STORAGE_KEY, select.value);
     });
 };

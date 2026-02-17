@@ -17,7 +17,9 @@
                 "Chrome DevTools"
             ],
             "salaryRange": "$20k-$45k",
-            "summary": "Builds responsive websites and web apps for businesses and startups."
+            "summary": "Builds responsive websites and landing pages for businesses, focusing on layout, accessibility, and performance.",
+            "image": "images/track-development.svg",
+            "imageAlt": "Abstract development workspace illustration"
         },
         {
             "id": "frontend",
@@ -36,7 +38,9 @@
                 "Lighthouse"
             ],
             "salaryRange": "$40k-$85k",
-            "summary": "Specializes in user interfaces, performance, and web accessibility."
+            "summary": "Designs and builds interactive interfaces with strong UX, accessibility, and performance focus.",
+            "image": "images/track-development.svg",
+            "imageAlt": "Abstract development workspace illustration"
         },
         {
             "id": "backend",
@@ -55,7 +59,9 @@
                 "Git"
             ],
             "salaryRange": "$35k-$75k",
-            "summary": "Builds the server-side logic and databases powering applications."
+            "summary": "Creates server logic, APIs, and database structures that keep applications running.",
+            "image": "images/track-development.svg",
+            "imageAlt": "Abstract development workspace illustration"
         },
         {
             "id": "fullstack",
@@ -74,7 +80,9 @@
                 "Cloud Hosting"
             ],
             "salaryRange": "$45k-$95k",
-            "summary": "Handles both client and server development across a product."
+            "summary": "Owns end-to-end feature delivery, from UI to APIs and deployment.",
+            "image": "images/track-development.svg",
+            "imageAlt": "Abstract development workspace illustration"
         },
         {
             "id": "data-analyst",
@@ -93,7 +101,9 @@
                 "Google Sheets"
             ],
             "salaryRange": "$30k-$65k",
-            "summary": "Turns data into insights for business decisions and reporting."
+            "summary": "Analyzes data to answer business questions and present clear dashboards.",
+            "image": "images/track-data.svg",
+            "imageAlt": "Abstract data visualization illustration"
         },
         {
             "id": "data-scientist",
@@ -112,7 +122,9 @@
                 "Scikit-learn"
             ],
             "salaryRange": "$55k-$110k",
-            "summary": "Builds predictive models and experiments to solve complex problems."
+            "summary": "Builds predictive models and experiments to solve complex problems.",
+            "image": "images/track-data.svg",
+            "imageAlt": "Abstract data visualization illustration"
         },
         {
             "id": "data-engineer",
@@ -131,7 +143,9 @@
                 "Spark"
             ],
             "salaryRange": "$60k-$120k",
-            "summary": "Designs pipelines that move and clean data for analytics teams."
+            "summary": "Builds reliable pipelines that clean, move, and organize data at scale.",
+            "image": "images/track-data.svg",
+            "imageAlt": "Abstract data visualization illustration"
         },
         {
             "id": "qa",
@@ -150,7 +164,9 @@
                 "Playwright"
             ],
             "salaryRange": "$25k-$55k",
-            "summary": "Ensures software quality by testing features before release."
+            "summary": "Tests product features, reports bugs, and protects release quality.",
+            "image": "images/track-quality.svg",
+            "imageAlt": "Abstract quality assurance illustration"
         },
         {
             "id": "ux",
@@ -169,7 +185,9 @@
                 "Notion"
             ],
             "salaryRange": "$35k-$70k",
-            "summary": "Designs intuitive experiences based on user feedback and testing."
+            "summary": "Researches user needs and designs flows that feel intuitive and helpful.",
+            "image": "images/track-design.svg",
+            "imageAlt": "Abstract design studio illustration"
         },
         {
             "id": "ui",
@@ -188,7 +206,9 @@
                 "Illustrator"
             ],
             "salaryRange": "$30k-$65k",
-            "summary": "Crafts visual systems and interface components for products."
+            "summary": "Creates polished interface components and visual systems for apps.",
+            "image": "images/track-design.svg",
+            "imageAlt": "Abstract design studio illustration"
         },
         {
             "id": "product",
@@ -207,7 +227,9 @@
                 "Figma"
             ],
             "salaryRange": "$50k-$100k",
-            "summary": "Aligns teams on product goals, priorities, and releases."
+            "summary": "Aligns teams on priorities and ships products that solve user needs.",
+            "image": "images/track-product.svg",
+            "imageAlt": "Abstract product planning illustration"
         },
         {
             "id": "it-support",
@@ -226,7 +248,9 @@
                 "Ticketing"
             ],
             "salaryRange": "$25k-$50k",
-            "summary": "Assists teams with hardware, software, and network issues."
+            "summary": "Helps teams solve hardware, software, and network issues quickly.",
+            "image": "images/track-it.svg",
+            "imageAlt": "Abstract IT support illustration"
         },
         {
             "id": "cloud",
@@ -245,7 +269,9 @@
                 "Google Cloud"
             ],
             "salaryRange": "$35k-$70k",
-            "summary": "Supports cloud deployments and manages foundational services."
+            "summary": "Supports cloud services and understands core infrastructure concepts.",
+            "image": "images/track-it.svg",
+            "imageAlt": "Abstract IT support illustration"
         },
         {
             "id": "cyber",
@@ -264,7 +290,9 @@
                 "Kali Linux"
             ],
             "salaryRange": "$40k-$85k",
-            "summary": "Monitors security alerts and protects systems from threats."
+            "summary": "Monitors security alerts, investigates incidents, and reduces risk.",
+            "image": "images/track-security.svg",
+            "imageAlt": "Abstract cybersecurity shield illustration"
         },
         {
             "id": "ai",
@@ -283,7 +311,9 @@
                 "Notion"
             ],
             "salaryRange": "$35k-$70k",
-            "summary": "Builds effective prompts and workflows for generative AI tools."
+            "summary": "Designs prompts and workflows that help teams use generative AI effectively.",
+            "image": "images/track-ai.svg",
+            "imageAlt": "Abstract AI assistant illustration"
         }
     ]
 }

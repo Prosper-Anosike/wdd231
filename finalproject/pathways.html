@@ -51,6 +51,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="pathways.html" class="active">Pathways</a></li>
                 <li><a href="resources.html">Resources</a></li>
+                <li><a href="attributions.html">Attributions</a></li>
             </ul>
         </nav>
     </header>
@@ -77,11 +78,14 @@
         </section>
     </main>
 
-    <dialog id="role-modal" class="modal" aria-labelledby="modal-title">
+    <dialog id="role-modal" class="modal" aria-labelledby="modal-title" aria-describedby="modal-summary">
         <div class="modal-content">
             <h2 id="modal-title" data-modal-title>Role detail</h2>
             <p class="role-meta"><span data-modal-track></span> · <span data-modal-level></span></p>
-            <p data-modal-summary></p>
+            <figure class="modal-figure">
+                <img data-modal-image src="images/track-development.svg" alt="" loading="lazy" decoding="async">
+            </figure>
+            <p id="modal-summary" data-modal-summary></p>
             <ul>
                 <li><strong>Core skills:</strong> <span data-modal-skills></span></li>
                 <li><strong>Tools:</strong> <span data-modal-tools></span></li>
@@ -95,7 +99,8 @@
     <footer>
         <div class="footer-links">
             <a href="attributions.html">Attributions</a>
-            <a href="https://example.com" target="_blank" rel="noopener">Project video</a>
+            <a href="https://www.loom.com/" target="_blank" rel="noopener">Project video</a>
+            <a href="https://github.com/prosper-anosike/wdd231" target="_blank" rel="noopener">GitHub repository</a>
         </div>
         <p>&copy; <span id="currentyear"></span> Tech Pathways Hub</p>
         <p id="lastModified"></p>

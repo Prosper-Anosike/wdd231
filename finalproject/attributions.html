@@ -7,16 +7,75 @@
     <meta name="description" content="Attributions for Tech Pathways Hub content and assets.">
     <meta name="author" content="Prosper Anosike">
     <title>Tech Pathways Hub | Attributions</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tech Pathways Hub | Attributions">
+    <meta property="og:description" content="Attributions for Tech Pathways Hub content and assets.">
+    <meta property="og:image"
+        content="https://prosper-anosike.github.io/wdd231/finalproject/images/hero-illustration.svg">
+    <meta property="og:url" content="https://prosper-anosike.github.io/wdd231/finalproject/attributions.html">
+    <meta property="og:site_name" content="Tech Pathways Hub">
+
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/attributions.js" type="module"></script>
 </head>
 
 <body>
+    <header>
+        <div class="brand">
+            <img src="images/favicon.svg" alt="Tech Pathways Hub logo" class="logo">
+            <div>
+                <p class="eyebrow">Attributions</p>
+                <p class="site-name">Tech Pathways Hub</p>
+            </div>
+        </div>
+        <button id="menu" aria-label="Open navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="primary-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pathways.html">Pathways</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="attributions.html" class="active">Attributions</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
-        <h1>Attributions</h1>
-        <ul>
-            <li>Hero illustration and favicon created by Prosper Anosike.</li>
-            <li>Role descriptions compiled from public career pathway sources and personal summaries.</li>
-        </ul>
+        <section class="section-card">
+            <h1>Attributions</h1>
+            <ul>
+                <li>Hero illustration and favicon created by Prosper Anosike.</li>
+                <li>Track illustrations created by Prosper Anosike.</li>
+                <li>Role descriptions compiled from public career pathway sources and personal summaries.</li>
+            </ul>
+        </section>
     </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="attributions.html">Attributions</a>
+            <a href="https://www.loom.com/" target="_blank" rel="noopener">Project video</a>
+            <a href="https://github.com/prosper-anosike/wdd231" target="_blank" rel="noopener">GitHub repository</a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> Tech Pathways Hub</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 
 </html>
